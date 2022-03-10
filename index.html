@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kindome Fight</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Главный герой -->
+        <div class="main_window_game">
+            <div class="hero">
+                <div class="character_inner">
+                    <div class="name_hero name"></div>
+                    <img src="./graphics/hero.png" alt="" class="character_icon_hero">
+                    <div class="stats">
+                        <div class="health_hero">HEALTH:</div>
+                        <div class="damage_hero">DAMAGE:</div>
+                        <div class="armor_hero">ARMOR:</div>
+                    </div>
+                    <div class="special_spell">
+                        <div class="hero_spell_one"></div>
+                        <div class="hero_spell_two"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Враг -->
+            <div class="enemy">
+                <div class="character_inner">
+                    <div class="name_enemy name"></div>
+                    <img src="./graphics/enemy.png" alt="" class="character_icon_enemy enemy_img">
+                    <div class="stats">
+                        <div class="health_enemy">HEALTH:</div>
+                        <div class="damage_enemy">DAMAGE:</div>
+                        <div class="armor_enemy">ARMOR:</div>
+                    </div>
+                    <div class="special_spell">
+                        <div class="enemy_spell_one"></div>
+                        <div class="enemy_spell_two"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Контроллер -->
+        <div class="controller">
+            <button class="attack" onclick="" >ATTACK</button>
+        </div>
+    </div>
+
+
+    <script src="./scripts/fight_system.js"></script>
+    <script src="./scripts/data_base.js"></script>
+</body>
+</html>

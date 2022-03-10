@@ -1,0 +1,105 @@
+/* font-family: 'Press Start 2P', cursive; */
+.body{
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Обложка */
+.wrapper{
+    width: 600px;
+    height: auto;
+
+    padding: 10px;
+
+    font-family: 'Press Start 2P', cursive;
+
+    background-color: black;
+    color: white;
+}
+/* Игровое окно */
+.main_window_game{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.enemy_img{
+    transform: scale(-1, 1);
+}
+
+.character_inner{
+    display: flex;
+    flex-direction: column;
+
+    width: 250px;
+    height: 450px;
+}
+
+.stats{
+    background-color: rgb(27, 27, 27);
+    padding: 10px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.name{
+    font-size: 20px;
+    
+    padding: 5px;
+    background-color: rgb(27, 27, 27);
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Контролер */
+.controller{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 600px;
+    padding: 30px 0px;
+    margin: 0;
+
+    background-color: black;
+}
+
+button.attack{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+
+    padding: 30px 80px;
+    border: none;
+    
+    background-color: rgb(224, 75, 75);
+    color: white;
+    transition: background-color .01s linear;
+}
+button.attack:active{
+    background-color: rgb(0, 0, 0);
+    color:rgb(224, 75, 75);
+    border: 5px solid white;
+}
+
+
+/* low hp  */
+.lowHP{
+    color: rgb(224, 75, 75);
+}
+/* special spell */
+.special_spell{
+    color:aqua;
+    padding: 10px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    text-transform: uppercase;
+}
+
